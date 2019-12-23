@@ -1,0 +1,32 @@
+{
+  "name": "oop-gql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "concurrently \"tsc --watch\" \"wait-on build/server.js && nodemon --exec 'node build/server.js'\"",
+    "serve": "node build/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongodb": "^3.3.13",
+    "@types/node": "^12.12.21",
+    "@types/node-fetch": "^2.5.4",
+    "@types/request-promise-native": "^1.0.17",
+    "apollo-server": "^2.9.14",
+    "dotenv": "^8.2.0",
+    "graphql": "^14.5.8",
+    "mongodb": "^3.4.1",
+    "request-promise-native": "^1.0.8",
+    "typescript": "^3.7.3"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.2",
+    "nodemon": "^2.0.2",
+    "wait-on": "^3.3.0"
+  }
+}
