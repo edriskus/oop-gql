@@ -17,7 +17,7 @@
     "@types/node": "^12.12.21",
     "@types/node-fetch": "^2.5.4",
     "@types/request-promise-native": "^1.0.17",
-    "apollo-server": "^2.9.14",
+    "apollo-server": "^2.14.2",
     "dotenv": "^8.2.0",
     "graphql": "^14.5.8",
     "mongodb": "^3.4.1",
